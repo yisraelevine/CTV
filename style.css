@@ -17,7 +17,7 @@ body{
     display: flex;
     align-items: center;
 }
-#navigation-container{
+#navigation-container a{
     color: white;
     text-decoration: none;
 }
