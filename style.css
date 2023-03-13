@@ -1,8 +1,24 @@
 body{
     margin: 0;
 }
-body > iframe{
+#container-heading{
     position: sticky;
-    width: 100%;
-    border: 0;
+    background-color: #001fa5;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+#header-text{
+    font-size: 25px;
+    color: white;
+    align-self: center;
+}
+#navigation-container{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#navigation-container div{
+    padding: 0 10px;
+    font-family: system-ui;
 }
