@@ -14,9 +14,12 @@ body{
     align-self: center;
 }
 #navigation-container{
-    color: white;
     display: flex;
     align-items: center;
+}
+#navigation-container{
+    color: white;
+    text-decoration: none;
 }
 #navigation-container div{
     padding: 0 10px;
