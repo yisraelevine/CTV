@@ -3,6 +3,7 @@ body{
 }
 #container-heading{
     position: sticky;
+    top: 0;
     background-color: #001fa5;
     display: flex;
     justify-content: space-between;
