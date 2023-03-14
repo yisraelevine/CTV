@@ -2,14 +2,17 @@ body {
     margin: 0;
     background-color: #c6f1ff;
 }
-#bsd{
-    color: white;
-    background-color: darkcyan;
+#bsd {
+    color: #0e1b38;
+    font-weight: bold;
+    background-color: #5d7ab5;
     position: absolute;
     z-index: 100;
-    padding: 2px 8px;
+    padding: 3px 9px 1px 12px;
     border-radius: 5px;
+    font-size: 12px;
     top: 5px;
+    letter-spacing: 1px;
     left: 5px;
 }
 #container-heading {
