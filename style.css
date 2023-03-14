@@ -66,14 +66,24 @@ body {
     box-shadow: 0 0 20px 10px #6a6a6a85;
 }
 @media screen and (max-width: 1000px) {
+    #container-heading {
+        padding: 20px 28px;
+    }
+    #navigation-container {
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 10px;
+        background-color: cadetblue;
+        padding: 8px;
+        border-radius: 8px;
+        flex-direction: column;
+    }
     #main-content .A {
         flex-direction: column;
-        padding: 40px 80px;
+        padding: 40px 60px;
+        align-items: center;
     }
         #main-content .A div, #main-content .A img {
             width: 100%;
         }
-    #navigation-container{
-        display: none;
-    }
 }
