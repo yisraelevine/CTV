@@ -65,3 +65,15 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px 10px #6a6a6a85;
 }
+@media screen and (max-width: 1000px) {
+    #main-content .A {
+        flex-direction: column;
+        padding: 40px 80px;
+    }
+        #main-content .A div, #main-content .A img {
+            width: 100%;
+        }
+    #navigation-container{
+        display: none;
+    }
+}
