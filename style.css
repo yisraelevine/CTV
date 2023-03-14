@@ -26,3 +26,6 @@ body{
     padding: 0 10px;
     font-family: system-ui;
 }
+#main-content .A{
+    background-color: cornflowerblue;
+}
