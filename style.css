@@ -38,9 +38,20 @@ body {
         color: white;
         text-decoration: none;
     }
-    #navigation-container div {
+    #navigation-container > .menu-items {
+        overflow: hidden;
         padding: 0 10px;
         font-family: system-ui;
+    }
+    #navigation-container .menu-items-wrapper {
+        margin: 0;
+        transition-duration: 1s;
+        transition-property: margin;
+        text-align: center;
+        display: flex;
+    }
+    #navigation-container .menu-items-wrapper a:not(:last-child) div{
+        margin-right: 20px;
     }
 #main-content .A {
     background-color: #247193;
@@ -85,7 +96,7 @@ body {
         padding: 30px 38px;
     }
     #header-text {
-        width: calc(100% - 150px);
+        width: 100%;
     }
     #navigation-container {
         position: absolute;
@@ -95,6 +106,27 @@ body {
         padding: 8px;
         border-radius: 8px;
         flex-direction: column;
+    }
+    .menu-icon {
+        cursor: pointer;
+        align-self: end;
+    }
+    .menu-icon *:not(:last-child) {
+        margin-bottom: 4px;
+    }
+    .menu-icon * {
+        width: 26px;
+        height: 4px;
+        background-color: #0c3f4c;
+        border-radius: 10px;
+    }
+    .menu-items-toggle{
+        margin: -500px!important;
+        transition-duration: 1s;
+        transition-property: margin;
+    }
+    #navigation-container .menu-items-wrapper {
+        display: block;
     }
     #main-content .A {
         flex-direction: column;
