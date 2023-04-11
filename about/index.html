@@ -2,36 +2,47 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="icon" href="data:,">
+        <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>About | Chabad Of Trump Village</title>
+        <link href="../head.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <div id="container-heading">
+            <span id="bsd">BS"D</span>
             <div id="header-text">Chabad Of Trump Village</div>
             <div id="navigation-container">
-                <a href="/">
-                    <div>Home</div>
-                </a>
-                <a href="/about/">
-                    <div>About</div>
-                </a>
-                <a href="/donate/">
-                    <div>Donate</div>
-                </a>
-                <a href="/membership/">
-                    <div>Membership</div>
-                </a>
-                <a href="/contact-us/">
-                    <div>Contact Us</div>
-                </a>
-                <a href="/photos-videos/">
-                    <div>Photos & Videos</div>
-                </a>
-                <a href="/more/">
-                    <div>More</div>
-                </a>
+                <div class="menu-icon" onmousedown="document.querySelector('.menu-items').classList.toggle('menu-items-toggle');document.querySelector('.menu-items-wrapper').classList.toggle('menu-items-wrapper-toggle');">
+                    <div></div>
+                    <div></div>    
+                    <div></div>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-items-wrapper">
+                        <a href="/">
+                            <div>Home</div>
+                        </a>
+                        <a href="/about/">
+                            <div>About</div>
+                        </a>
+                        <a href="/donate/">
+                            <div>Donate</div>
+                        </a>
+                        <a href="/membership/">
+                            <div>Membership</div>
+                        </a>
+                        <a href="/contact-us/">
+                            <div>Contact Us</div>
+                        </a>
+                        <a href="/photos-videos">
+                            <div>Photos & Videos</div>
+                        </a>
+                        <a href="/more">
+                            <div>More</div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
